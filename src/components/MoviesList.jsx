@@ -30,7 +30,7 @@ export const MoviesList = ({url, page}) => {
             renderItem={({item})=> <Item title={item.title} image={item.poster_patch} overview={item.overview}/>}
             keyExtractor={item => item.id}
           ></FlatList>  
-        </View>
+        </View>  
     )
       
 }
